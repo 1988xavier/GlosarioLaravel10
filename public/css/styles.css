@@ -1,0 +1,71 @@
+/* Estilos para el encabezado */
+.encabezado {
+    background-image: linear-gradient(to right, #080daa, #8085a7); /* Cambia el color de fondo del encabezado */
+    color: #ffffff; /* Cambia el color del texto */
+    padding: 7px; /* Añade espaciado alrededor del encabezado */
+    font-size: 10px; /* Establece el tamaño de la fuente del encabezado */
+    border: 5px solid #000000;
+}
+
+
+/* Estilos para la barra lateral izquierda */
+.sidebar  {
+    color: #040404;
+    float: left; /* Coloca la barra lateral a la izquierda */
+    width: 30%; /* Establece el ancho de la barra lateral */
+    height: 568px;
+    background-color: #a8b0ea; /* Cambia el color de fondo de la barra lateral */
+    padding: 10px; /* Añade espaciado alrededor de la barra lateral */
+    border: 5px solid #000000;
+}
+
+/* Estilos para el área central derecha */
+.content {
+   color: #ffffff;
+    text-align: center;
+    background-image: linear-gradient(to right bottom, rgb(9, 63, 224), #ffffff);
+    float: right; /* Coloca el área central a la derecha */
+    width: 54.05%; /* Establece el ancho del área central */
+    height: 568px;
+    padding: 100px; /* Añade espaciado alrededor del área central */
+    border: 5px solid #000000;
+    text-shadow: -2px -2px 0 #000,  
+                  1px -1px 0 #bb1616,
+                 -1px  1px 0 #cf2424,
+                  1px  1px 0 #000;
+}
+
+
+.encabezado {
+    display: flex; /* Utiliza flexbox para alinear los elementos en una fila */
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+.encabezado img {
+    margin-right: 400px; /* Añade un margen a la derecha de la imagen para separarla del texto */
+}
+
+.texto {
+    text-align: center;
+   
+}
+
+.logo {
+    display: inline-block; /* Muestra los elementos en línea uno al lado del otro */
+   
+}
+
+.informacion {
+    background-color: rgb(119, 185, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar horizontalmente */
+    justify-content: center; /* Centrar verticalmente */
+    height: 710px; /* Establecer altura al 100% del viewport */
+    border: 5px solid #000000;
+}
+
+
+
+
+
